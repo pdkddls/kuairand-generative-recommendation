@@ -1,0 +1,41 @@
+{
+  "events": 4000000,
+  "catalog_cap": 100000,
+  "seed": 42,
+  "cut_fractions": [
+    0.2,
+    0.8,
+    0.9
+  ],
+  "history_length": 16,
+  "embedding_model": "Qwen/Qwen3-Embedding-4B",
+  "embedding_dim": 256,
+  "embedding_batch": 32,
+  "text_tokens": 128,
+  "centers": 64,
+  "ctr_strength": 20,
+  "epochs": 3,
+  "batch": 128,
+  "lr": 0.0003,
+  "utility_weight": 0.001,
+  "beam": 200,
+  "utility_decode_weight": 1.0,
+  "sid_method": "famae_qwen_gaoq_ctr_v2",
+  "famae_dim": 32,
+  "famae_heads": 4,
+  "famae_layers": 2,
+  "famae_epochs": 3,
+  "famae_batch": 256,
+  "famae_negatives": 128,
+  "famae_lr": 0.001,
+  "gaoq_iterations": 10,
+  "t5": {
+    "d_model": 128,
+    "d_ff": 512,
+    "num_heads": 4,
+    "d_kv": 32,
+    "num_layers": 2,
+    "num_decoder_layers": 2,
+    "dropout_rate": 0.1
+  }
+}

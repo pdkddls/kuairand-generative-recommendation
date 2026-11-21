@@ -1,0 +1,5 @@
+{
+  "epochs": 3, "batch": 128, "lr": 0.0003, "width": 128, "heads": 4,
+  "layers": 2, "dropout": 0.1, "tiger_beam": 200,
+  "rq_epochs": 15, "rq_batch": 512, "rq_centers": 256, "rq_latent": 32
+}
